@@ -2,14 +2,7 @@
 
 Uniswap is a Decentralized Exchange (DEX) on the Ethereum platform. Here, it is configured to work on Oasis.
 
-For information on Uniswap:
-* Website: [uniswap.io/](https://uniswap.io/)
-* Docs: [docs.uniswap.io/](https://docs.uniswap.io/)
-* Twitter: [@UniswapExchange](https://twitter.com/UniswapExchange)
-* Reddit: [/r/Uniswap/](https://www.reddit.com/r/UniSwap/)
-* Email: [contact@uniswap.io](mailto:contact@uniswap.io)
-* Slack: [uni-swap.slack.com/](https://join.slack.com/t/uni-swap/shared_invite/enQtNDYwMjg1ODc5ODA4LWEyYmU0OGU1ZGQ3NjE4YzhmNzcxMDAyM2ExNzNkZjZjZjcxYTkwNzU0MGE3M2JkNzMxOTA2MzE2ZWM0YWQwNjU)
-* Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
+For information on Uniswap: [uniswap.io/](https://uniswap.io/)
 
 ## Compiling Uniswap Contracts
 
@@ -26,8 +19,13 @@ git reset --hard 35038d20bd9946a35261c4c4fbcb27fe61e65f78
 ```
 
 Vyper requires Python version 3.6 or higher. The best way to install vyper is to use `virtualenv` to create a python virtual environment:
+
+First make sure you have Python 3.6 installed, then get your path to python 3.
 ```bash
 which python3
+```
+Start a virtualenv.
+```
 virtualenv -p <PATH/TO/PYTHON3.6> my_project
 source my_project/bin/activate
 ```
