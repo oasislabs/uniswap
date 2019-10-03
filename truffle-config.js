@@ -1,5 +1,5 @@
 
-const mnemonic = ""; // your mnemonic here
+const mnemonic = "range drive remove bleak mule satisfy mandate east lion minimum unfold ready"; // your mnemonic here
 
 const HDWalletProvider = require("truffle-hdwallet-provider");
 
