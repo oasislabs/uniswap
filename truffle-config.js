@@ -7,9 +7,7 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 module.exports = {
   networks: {
     development: {
-      provider: () => new HDWalletProvider(mnemonic, "https://web3.devnet.oasiscloud.io"),
-      host: "127.0.0.1",
-      port: 8546,
+      provider: () => new HDWalletProvider(mnemonic, "http://localhost:8545"),
       network_id: "*",
     },
   },
